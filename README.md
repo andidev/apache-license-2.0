@@ -4,9 +4,9 @@ Apache License 2.0
 This repository is ment to be used as a template for new git projects released under the Apache License 2.0.
 
 ##### Usage
-Set your project name
+Set the project name
 ~~~ sh
-PROJECT_NAME=yourprojectname
+PROJECT_NAME=theprojectname
 ~~~
 
 ...and run the following commands
