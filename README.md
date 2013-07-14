@@ -1,33 +1,6 @@
 Apache License 2.0
 ===================
 
-This repository is ment to be used as a template for new git projects released under the Apache License 2.0.
-
-##### Usage
-Set the project name
-~~~ sh
-PROJECT_NAME=theprojectname
-~~~
-
-...and run the following commands
-~~~ sh
-hub clone andidev/apache-license-2.0 $PROJECT_NAME        &&
-cd $PROJECT_NAME                                          &&
-sudo rm -r .git                                           &&
-git init                                                  &&
-git add .                                                 &&
-git commit -m "Added Apashe License 2.0"                  &&
-hub create                                                &&
-git push -u origin master
-~~~
-
-Finally erase these instructions and replace the Apache License 2.0 header with ypur project name in this the README.md file.
-
-You need to have hub installed. You can install it with brew on OSX with the following command.
-~~~ sh
-brew install hub
-~~~
-
 ## License
 
 Licensed under the Apache License, Version 2.0 (the "License");
