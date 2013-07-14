@@ -1,7 +1,7 @@
-Project Name
+Apache License 2.0
 ===================
 
-This repository is ment to be used as a template for new git projects released under the Apache License 2.0 license.
+This repository is ment to be used as a template for new git projects released under the Apache License 2.0.
 
 ##### Usage
 Set your project name
@@ -26,7 +26,7 @@ You need to have hub installed. You can install it with brew on OSX with the fol
 brew install hub
 ~~~
 
-Finally erase these instructions and replace the header with ypur project name in this the README.md file.
+Finally erase these instructions and replace the Apache License 2.0 header with ypur project name in this the README.md file.
 
 ## License
 
