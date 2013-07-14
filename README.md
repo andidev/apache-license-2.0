@@ -11,22 +11,22 @@ PROJECT_NAME=yourprojectname
 
 ...and run the following commands
 ~~~ sh
-sudo hub clone andidev/apache-license-2.0 $PROJECT_NAME   \
-cd $PROJECT_NAME                                          \
-rm -r .git                                                \
-git init                                                  \
-git add .                                                 \
-git commit -m "Added Apashe License 2.0"                  \
-hub create                                                \
+hub clone andidev/apache-license-2.0 $PROJECT_NAME        &&
+cd $PROJECT_NAME                                          &&
+sudo rm -r .git                                           &&
+git init                                                  &&
+git add .                                                 &&
+git commit -m "Added Apashe License 2.0"                  &&
+hub create                                                &&
 git push -u origin master
 ~~~
+
+Finally erase these instructions and replace the Apache License 2.0 header with ypur project name in this the README.md file.
 
 You need to have hub installed. You can install it with brew on OSX with the following command.
 ~~~ sh
 brew install hub
 ~~~
-
-Finally erase these instructions and replace the Apache License 2.0 header with ypur project name in this the README.md file.
 
 ## License
 
